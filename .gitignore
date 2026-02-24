@@ -1,0 +1,6 @@
+.claude/
+src/
+pkg/
+*.pkg.tar*
+*.log
+*.ZIP
