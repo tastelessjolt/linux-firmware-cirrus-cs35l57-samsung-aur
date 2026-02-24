@@ -1,0 +1,15 @@
+pkgbase = linux-firmware-cirrus-cs35l57-samsung
+	pkgdesc = Cirrus Logic CS35L57 firmware for Samsung laptops
+	pkgver = 4.7.0
+	pkgrel = 1
+	url = https://semiconductor.samsung.com
+	arch = any
+	license = LicenseRef-Samsung-proprietary
+	makedepends = unzip
+	makedepends = zstd
+	options = !strip
+	options = !debug
+	source = BASW-A4285A20_1063.ZIP::https://org.downloadcenter.samsung.com/downloadfile/ContentsFile.aspx?CttFileID=11284027&CDCttType=DR&ModelType=C&ModelName=&VPath=DR/202602/20260209091248829/BASW-A4285A20_1063.ZIP
+	sha256sums = e6a4cb8197923e0eff0545500b0f0f26630faf93f5e7364ac19dc9789a34b4de
+
+pkgname = linux-firmware-cirrus-cs35l57-samsung
